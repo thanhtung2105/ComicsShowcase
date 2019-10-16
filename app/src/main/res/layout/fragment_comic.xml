@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    tools:context=".ComicFragment">
+
+            <TextView
+                android:fontFamily="serif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="initive - testing - initive - testing - initive -tesing - initive -testing"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FF9100"
+                android:id="@+id/comic_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0E165E"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:id="@+id/comic_introduction"
+                android:textStyle="italic"
+                android:text="Nội dung quyển truyện này chưa được viết"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/comic_1"
+                android:layout_marginTop="300dp"
+                android:id="@+id/comic_image"
+                ></ImageView>
+
+    <!-- TODO: Update blank fragment layout -->
+</RelativeLayout>

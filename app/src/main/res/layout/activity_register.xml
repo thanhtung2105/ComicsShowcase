@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="Become a member"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold|bold|bold"
+        />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:background="#99FFFFFF"
+        android:textColor="#FF3D00"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Create a username"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:id="@+id/username_register"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="#99FFFFFF"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:hint="Create a password"
+        android:inputType="textPassword"
+        android:shadowColor="#000000"
+        android:textColor="#FF3D00"
+        android:textColorHint="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:id="@+id/password_register"
+        />
+
+    <EditText
+        android:background="#99FFFFFF"
+        android:textColor="#FF3D00"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Retype your password"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:inputType="textPassword"
+        android:id="@+id/re_password_register"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="#F50057"
+        android:id="@+id/btn_register"
+        />
+</LinearLayout>
